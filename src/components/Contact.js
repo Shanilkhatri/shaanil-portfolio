@@ -65,7 +65,17 @@ export const Contact = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}> */}
                 <h2>Get In Touch</h2>
                 <span><img src={emailsvg} style={{width:"18px"}}></img></span>
-                <a href="mailto:shaanilkhatri@gmail.com" style={{textDecoration:"none", color:"black"}}> shaanilkhatri@gmail.com</a><span style={{color:"black"}}> | <span><img src={phonesvg} style={{width:"18px"}}></img></span>+91-9303246090</span>
+                <a href="mailto:shaanilkhatri@gmail.com" style={{textDecoration:"none", color:"black"}}> shaanilkhatri@gmail.com</a>
+                <span style={{color:"black"}}>
+                 | 
+                 <span>
+                  <img src={phonesvg} style={{width:"18px" }}>
+                  </img>
+                </span>
+                <a href="tel:9303246090" style={{textDecoration:"none", color:"black"}}>
+                +91-9303246090
+                </a>
+                </span>
                 {/* <form onSubmit={handleSubmit}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">

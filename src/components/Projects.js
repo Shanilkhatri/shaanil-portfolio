@@ -15,7 +15,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "Insta DM Bot",
-      description: "Automated Instagram messages through Selenium Webdriver, headless-chrome and Python, it can be used for promoting campaigns, letting people know about you(your brand, mission, etc) by reaching them without missing a single day, as these DMs are pre-scheduled.",
+      description: "Automate Instagram messages using Selenium, headless Chrome, and Python for scheduled promotion campaigns, ensuring daily outreach to inform users about your brand or mission.",
       imgUrl: projImg1,
     },
     {
@@ -40,7 +40,7 @@ export const Projects = () => {
     },
     {
       title: "Espiro",
-      description: "Academics made easy! Yup a print on demand service that delivers documents to your doorstep, provide students with Ideas on new projects they can pursue and much more!",
+      description: "Streamlining academics! Our print-on-demand service delivers documents to your doorstep, offers project ideas for students, and much more!",
       imgUrl: projImg6,
     },
   ];
