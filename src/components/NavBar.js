@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import myCv from '../assets/cv/Shaanil_latestCV.pdf'
+import myCv from '../assets/cv/Shaanil-Khatri-Resume.pdf';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
